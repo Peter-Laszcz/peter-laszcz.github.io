@@ -9,8 +9,7 @@ Previous research intern position, wrote data analysis code for fluidised bed sy
 
 Developed features of in-house particle analysis software (specifically the [GUI fork](https://github.com/dwerner95/up4-GUI))
 
-**"JokeLight"**
-Wrote the backend for tone-detecting accessibility software utilising facial emotion recognition and speech sentiment analysis to produce tone-tagged captions for a video feed. Find the repo [here](https://github.com/SaltOfSpencer/Joke-Light).
+**Other Projects**
 
-
-
+- Somniloquy: software that tracks and transcribes sleep-talking (repo [here](https://github.com/Peter-Laszcz/Somniloquy-Python)
+- Wrote the backend for tone-detecting accessibility software utilising facial emotion recognition and speech sentiment analysis to produce tone-tagged captions for a video feed. Find the repo [here](https://github.com/SaltOfSpencer/Joke-Light).
