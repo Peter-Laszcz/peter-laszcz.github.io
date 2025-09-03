@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #374a5c;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+
+/* ~~ Styling for links ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+/* ~~ Container ~~ */
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+/* ~~ Header (photo + menu bar) ~~ */
+.header {
+	background: #021d3b;
+	display: flex;
+	justify-content: space-between; /* logo left, menu right */
+	align-items: center;             /* vertical alignment */
+	padding: 10px;
+}
+
+.header img {
+	display: block;
+}
+
+/* ~~ Spry Horizontal Menu ~~ */
+.topnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topnav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.topnav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
+}
+
+/* ~~ Content ~~ */
+.content {
+	padding: 10px 0;
+}
+
+/* ~~ Footer ~~ */
+.footer {
+	padding: 10px 0;
+	background: #CCC49F;
+}
+
+/* ~~ Floats (unused now but kept) ~~ */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <!-- Photo/logo -->
+    <a href="#"><img src="me.png" alt="Insert Logo Here" name="Insert_logo" width="200" height="150" id="Insert_logo" style="background: #C6D580;" /></a>
+
+    <!-- Spry Horizontal Menu -->
+    <div class="topnav">
+      <ul id="MenuBar1" class="MenuBarHorizontal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>Peter Laszcz</h1>
+    <h2>Contact</h2>
+    <p><a href="mailto:peterlaszcz@outlook.com">Email</a></p>
+    <p><a href="https://www.linkedin.com/in/peter-laszcz-691914238/">LinkedIn</a></p>
+    <p><a href="https://mathstodon.xyz/@peterlaszcz">Mastodon</a></p>
+    <p><a href="https://imagesc.zulipchat.com/#user/893914">Zulip (Image.sc)</a></p>
+    <p><i>If you'd like to collaborate on a project, feel free to reach out!</i></p>
+  </div>
+
+  <div class="footer">
+    <p>Last Updated September 2025</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #374a5c;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+
+/* ~~ Styling for links ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+/* ~~ Container ~~ */
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+/* ~~ Header (photo + menu bar) ~~ */
+.header {
+	background: #021d3b;
+	display: flex;
+	justify-content: space-between; /* logo left, menu right */
+	align-items: center;             /* vertical alignment */
+	padding: 10px;
+}
+
+.header img {
+	display: block;
+}
+
+/* ~~ Spry Horizontal Menu ~~ */
+.topnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topnav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.topnav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
+}
+
+/* ~~ Content ~~ */
+.content {
+	padding: 10px 0;
+}
+
+/* ~~ Footer ~~ */
+.footer {
+	padding: 10px 0;
+	background: #CCC49F;
+}
+
+/* ~~ Floats (unused now but kept) ~~ */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <!-- Photo/logo -->
+    <a href="#"><img src="me.png" alt="Insert Logo Here" name="Insert_logo" width="200" height="150" id="Insert_logo" style="background: #C6D580;" /></a>
+
+    <!-- Spry Horizontal Menu -->
+    <div class="topnav">
+      <ul id="MenuBar1" class="MenuBarHorizontal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>Peter Laszcz</h1>
+    <h2>Portfolio</h2>
+    <h2>Projects</h2>
+    <p><b>Somniloquy:</b> Resource-friendly voice-activated recording and transcription software with a focus on documenting sleeptalking. <a href="https://github.com/Peter-Laszcz/Somniloquy-Python">Find the repo here.</a></p>
+    <p><b>JL2:</b> Live captioning accessibility software using sentiment analysis and Facial Emotion Recognition to annotate captions with tone tags. Based off <a href="https://github.com/SaltOfSpencer/Joke-Light">one of my previous hackathon projects</a></p>
+  	<h2>Work</h2>
+    <p><b>Ilastik (Google Summer of Code):</b>  Bursary provided by Google under organisation of the Python Software Foundation to develop features of Ilastik (image processing software) under the remote mentorship of Ilastik developers at EMBL Heidelberg. Added support for physical pixel size metadata. The final submission pull request can be found <a href="https://github.com/ilastik/ilastik/pull/3045">here</a>.
+    <p><b>ARME:</b>  Previous research associate position, provided mathematical modelling and programming support for the <a href="https://arme-project.co.uk/">ARME Project</a>, particularly with coding and adapting code for musician synchronisation models.</p>
+    <p><b>University of Birmingham Positron Imaging Center:</b>  Previous research intern position, wrote data analysis code for fluidised bed systems, notably a <a href="writeup.pdf">program</a> which enables quantitative analysis of a bed system through radiography. Developed features of in-house particle analysis software (<a href="https://github.com/dwerner95/up4-GUI">specifically the GUI fork</a>).</p>
+  </div>
+
+  <div class="footer">
+    <p>Last Updated September 2025</p>
+  </div>
+</div>
+</body>
+</html>
